@@ -1,16 +1,49 @@
-# React + Vite
+AD312 – David Davis Portfolio Project
+A modern React + Vite portfolio website showcasing my academic projects, technical skills, and professional experience as a BAS‑Application Development student at North Seattle College. This project is part of the AD312 – Intermediate Development II major assignment.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 Project Purpose
+This portfolio serves as a professional online presence to highlight:
 
-Currently, two official plugins are available:
+React development skills
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+UI/UX awareness
 
-## React Compiler
+Academic assignments
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Industry experience (Amazon LEO, Kuiper, Kymeta, Boeing, etc.)
 
-## Expanding the ESLint configuration
+Long‑term career readiness
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📁 Project Structure
+
+<img width="665" height="213" alt="image" src="https://github.com/user-attachments/assets/ba099aad-142a-4c68-bdb3-fa87236f5025" />
+
+🛠️ Tech Stack
+React
+
+Vite
+
+JavaScript (ES6+)
+
+HTML/CSS
+
+GitHub Pages / Netlify / Vercel (deployment TBD)
+
+📅 Timeline
+This project is developed over a 2‑week sprint, including:
+
+Business Case
+
+User Stories
+
+Wireframes
+
+Component Architecture
+
+React Implementation
+
+Deployment
+
+📨 Contact
+David A. Davis  
+GitHub: https://github.com/Barrcardavis (github.com in Bing)
