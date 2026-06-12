@@ -182,3 +182,71 @@
     border-right-color: var(--border);
   }
 }
+
+/* ============================
+   HERO SECTION
+   ============================ */
+
+.hero-section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--text-h);
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: var(--text);
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  color: var(--text);
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero-btn {
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.25s ease;
+}
+
+.hero-btn.primary {
+  background: var(--accent);
+  color: white;
+}
+
+.hero-btn.primary:hover {
+  background: var(--accent-border);
+}
+
+.hero-btn.secondary {
+  border: 2px solid var(--border);
+  color: var(--text-h);
+}
+
+.hero-btn.secondary:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
