@@ -21,37 +21,44 @@ body {
    NavBar
 ============================ */
 .navbar {
-  background-color: var(--primary);
+  background-color: #0d6efd; /* fallback if --primary is undefined */
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+
+  /* Reduced vertical height */
+  padding: 10px 28px;
+
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
 .logo {
-  font-size: 1.8rem;
+  font-size: 1.4rem;   /* reduced */
   font-weight: 700;
+  line-height: 1;      /* critical for height */
+  color: white;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 30px;
+  gap: 24px;           /* slightly tighter spacing */
 }
 
 .nav-links a {
   color: white;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 0.95rem;  /* reduced */
+  line-height: 1;      /* critical for height */
   transition: color 0.2s ease;
 }
 
 .nav-links a:hover {
-  color: var(--accent);
+  color: #ffc107;
 }
 
 /* ============================
@@ -66,7 +73,7 @@ body {
 .section h2 {
   margin-bottom: 20px;
   font-size: 2rem;
-  color: var(--secondary);
+  color: #333; /* fallback if --secondary is undefined */
 }
 
 .section p,
@@ -94,4 +101,71 @@ body {
   padding: 40px 0;
   font-size: 0.9rem;
   color: #555;
+}
+
+/* ============================
+   Experience Page — Layout Wrapper
+   Centers the experience content and keeps it aligned
+============================ */
+.experience-list {
+  max-width: 800px;   /* keeps content readable */
+  margin: 0 auto;     /* centers the timeline */
+  text-align: left;   /* aligns text for professional readability */
+}
+
+/* ============================
+   Experience Page — Timeline Item (Full Border Style)
+   Gives each role its own card with a full border and subtle shadow
+============================ */
+.experience-item {
+  margin-bottom: 40px;          /* spacing between cards */
+  padding: 20px;                /* internal spacing */
+  border: 2px solid #0d6efd;    /* full border around each section */
+  border-radius: 6px;           /* optional: soft corners */
+  border-left: 4px solid #0d6efd;
+  background-color: #fff;       /* optional: white card background */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* subtle depth */
+}
+
+
+/* ============================
+   Experience Page — Job Title
+   Main heading for each role
+============================ */
+.experience-item h3 {
+  font-size: 1.3rem;
+  margin-bottom: 6px;
+}
+
+/* ============================
+   Experience Page — Sub‑Role Titles
+   Used for multi‑role positions (e.g., Concordia)
+============================ */
+.experience-item h4 {
+  margin-top: 12px;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+/* ============================
+   Experience Page — Location Text
+   City + State for each role
+============================ */
+.location {
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* ============================
+   Experience Page — Bullet Lists
+   Responsibilities, achievements, and role details
+============================ */
+.details {
+  list-style: disc;     /* standard bullet list */
+  margin-left: 20px;    /* indent bullets */
+}
+
+.details li {
+  margin: 6px 0;        /* spacing between bullet items */
 }
